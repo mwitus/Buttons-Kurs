@@ -109,11 +109,11 @@ button::after {
 }
 
 .slice:hover::before {
-	bottom: 0;
+	top: 0;
 }
 
 .slice:hover::after {
-	top: 0;
+	bottom: 0;
 }
 
 .hmm {
