@@ -99,21 +99,21 @@ button::after {
 }
 
 .slice::before {
-	top: -50%;
-	left: -100%;
+	left: -50%;
+	top: -100%;
 }
 
 .slice::after {
-	bottom: -50%;
-	right: -100%;
+	right: -50%;
+	bottom: -100%;
 }
 
 .slice:hover::before {
-	left: 0;
+	bottom: 0;
 }
 
 .slice:hover::after {
-	right: 0;
+	top: 0;
 }
 
 .hmm {
